@@ -1,0 +1,46 @@
+export const ColumnTypes = Object.freeze({
+    Amount: "amount",
+    AccountNumber: "accountNumber",
+    Badge: "badge",
+    Button: "button",
+    CheckBox: "checkbox",
+    Date: "date",
+    Link: "link",
+    ImageLink: "ImageLink",
+    List: "list",
+    Rating: "rating",
+    Tags: "tags",
+    Text: "text",
+    TimeStamp: "timestamp",
+    ButtonLink: "buttonLink",
+    Image: "image",
+    Title: "title",
+    Mask: "mask",
+    ReportAmount: "reportAmount",
+    CopyTooltip: "copyTooltip",
+    Numbering: "numbering",
+    Switch: "switch",
+    ExpandibleHandler: "expandibleHandler",
+});
+
+export const MetaData = Object.freeze({
+    currentPage: 1,
+    data: [],
+    firstPageUrl: "",
+    from: 0,
+    lastPage: 0,
+    lastPageUrl: "",
+    links: [],
+    nextPageUrl: "",
+    page: 0,
+    path: "",
+    perPage: 0,
+    prevPageUrl: null,
+    to: 0,
+    total: 0,
+});
+
+export const DisplayType = {
+    List: "list",
+    Table: "table",
+};
