@@ -20,7 +20,7 @@ class ProcessScraper extends Command
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Run the scrapers.';
 
     /**
      * Execute the console command.
