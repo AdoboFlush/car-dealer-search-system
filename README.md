@@ -14,12 +14,15 @@ A demo PHP-based application built with **Laravel 11**.
    ```bash
    composer install
    ```
+   ```bash
+   npm install
+   ```
 2. Set up `.env` values.
 3. Run database migrations and seeders:
    ```bash
    php artisan migrate --seed
    ```
-4. Compile frontend assets:
+5. Compile frontend assets:
    ```bash
    npm run dev
    ```
