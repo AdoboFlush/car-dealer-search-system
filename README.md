@@ -1,6 +1,6 @@
 # Car Dealer Search System
 
-A demo PHP-based application built with **Laravel 11**.
+A demo PHP-based application built with **Laravel 11** and **React**.
 
 ## Features
 
